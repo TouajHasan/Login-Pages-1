@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("/images/Aesthetic iPad Wallpaper 13 by YTECHB.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#main img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#glass{
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 600px;
+    background-color: rgba(202, 230, 230, 0.315);
+    border: 2px solid white;
+    border-radius: 10px;
+    fill-opacity: 100px;
+    /* backdrop-filter: blur(10px); */
+    
+    
+}
+
+#login-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#under-border{
+    width: 28%;
+    height: 2px;
+    background-color: rgb(29, 17, 17);
+    position: absolute;
+    margin-top: 50px;
+    
+    
+}
+
+#lebel-image{
+    position: absolute;
+    margin-left: 1.7%;
+    margin-top: 2.8%;
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+#email-text{
+    position: absolute;
+    width: 28%;
+    height: 50px;
+    background-color: white;
+    margin-top: 4.2%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#input-username{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;           /* ভিতরের দিকের padding */
+    font-size: 16px;           /* লেখার সাইজ */
+    background-color: #f0f0f0; /* হালকা ব্যাকগ্রাউন্ড */
+    
+}
+
+
+#input-username:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #87ceeb; /* সফট ব্লু হাইলাইট */
+}
+
+#lebel-pass{
+   
+        position: absolute;
+        margin-left: 1.7%;
+        margin-top: 7.9%;
+        font-size: 20px;
+        color: #f0f0f0;
+
+}
+
+#password-text{
+    position: absolute;
+    width: 28%;
+    height: 50px;
+    background-color: white;
+    margin-top: 9.5%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+#forget-pass{
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 1.6%;
+    font-size: 15px;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+#sing-button{
+    position: absolute;
+    background-color: red;
+    width: 28%;
+    height: 45px;
+    margin-left: 1.6%;
+    margin-top: 14.5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sing-button p{
+    font-size: 22px;
+    font-weight: bold;
+    color: wheat;
+}
+
+/* #continue{
+    position: absolute;
+    margin-top: 15%;
+    
+} */
+
+#continue-id{
+    margin-top: 56%;
+    min-height: 40px;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+#continue-id p{
+    font-size: 16px;
+    color: gray;
+}
+
+
+#continue-with{
+   display: flex;
+    /* background-color: red; */
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#google{
+    background-color: white;
+    width: 15%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#googles{
+    font-size: 100%;
+    /* color: red; */
+    
+}
+
+#dont-have-account{
+    display: flex;
+    /* background-color: red; */
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 6%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1{
+    font-size: 17px;
+    color: #f0f0f0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#p2{
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-right: 5px;
+    cursor: pointer;
+}
